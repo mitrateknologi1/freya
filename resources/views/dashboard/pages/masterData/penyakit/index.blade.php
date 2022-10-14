@@ -1,11 +1,11 @@
 @extends('dashboard.layouts.main')
 
 @section('title')
-    Gejala
+    Hama dan Penyakit
 @endsection
 
 @section('titlePanelHeader')
-    Gejala
+    Hama dan Penyakit
 @endsection
 
 @section('subTitlePanelHeader')
@@ -31,7 +31,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="card-head-row">
-                        <div class="card-title">Data Gejala</div>
+                        <div class="card-title">Data Hama dan Penyakit</div>
                         <div class="card-tools">
 
                         </div>
