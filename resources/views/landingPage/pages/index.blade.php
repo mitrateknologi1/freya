@@ -19,6 +19,8 @@
         <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
 
             <!-- Heading -->
+            <img src="{{ asset('assets/landingPage/img/untad.png') }}" alt="" height="150px" class="mb-5">
+
             <h1 class="display-3 text-center text-md-start">
                 Sistem Pakar Diagnosis Hama dan Penyakit Bawang Merah
                 Lokal

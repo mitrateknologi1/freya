@@ -13,12 +13,11 @@
 @endsection
 
 @section('buttonPanelHeader')
-    @component('dashboard.components.buttons.add',
-        [
-            'id' => 'btn-tambah',
-            'class' => '',
-            'url' => '#',
-        ])
+    @component('dashboard.components.buttons.add', [
+        'id' => 'btn-tambah',
+        'class' => '',
+        'url' => '#',
+    ])
     @endcomponent
 @endsection
 
@@ -41,11 +40,10 @@
                     <div class="row">
                         <div class="col">
                             <div class="card fieldset">
-                                @component('dashboard.components.dataTables.index',
-                                    [
-                                        'id' => 'table-data',
-                                        'th' => ['No', 'Kode', 'Gejala', 'Aksi'],
-                                    ])
+                                @component('dashboard.components.dataTables.index', [
+                                    'id' => 'table-data',
+                                    'th' => ['No', 'Kode', 'Gejala', 'Aksi'],
+                                ])
                                 @endcomponent
                             </div>
                         </div>
@@ -67,34 +65,31 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        @component('dashboard.components.formElements.input',
-                            [
-                                'id' => 'kode',
-                                'type' => 'text',
-                                'label' => 'Kode Gejala',
-                                'placeholder' => 'Kode Gejala',
-                                'name' => 'kode',
-                                'required' => true,
-                            ])
+                        @component('dashboard.components.formElements.input', [
+                            'id' => 'kode',
+                            'type' => 'text',
+                            'label' => 'Kode Gejala',
+                            'placeholder' => 'Kode Gejala',
+                            'name' => 'kode',
+                            'required' => true,
+                        ])
                         @endcomponent
-                        @component('dashboard.components.formElements.input',
-                            [
-                                'id' => 'nama_gejala',
-                                'type' => 'text',
-                                'label' => 'Nama Gejala',
-                                'placeholder' => 'Nama Gejala',
-                                'name' => 'nama_gejala',
-                                'required' => true,
-                            ])
+                        @component('dashboard.components.formElements.input', [
+                            'id' => 'nama_gejala',
+                            'type' => 'text',
+                            'label' => 'Nama Gejala',
+                            'placeholder' => 'Nama Gejala',
+                            'name' => 'nama_gejala',
+                            'required' => true,
+                        ])
                         @endcomponent
                     </div>
                     <div class="modal-footer">
                         @component('dashboard.components.buttons.close')
                         @endcomponent
-                        @component('dashboard.components.buttons.submit',
-                            [
-                                'label' => 'Simpan',
-                            ])
+                        @component('dashboard.components.buttons.submit', [
+                            'label' => 'Simpan',
+                        ])
                         @endcomponent
                     </div>
                 </div>

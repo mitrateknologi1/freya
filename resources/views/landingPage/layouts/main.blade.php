@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('assets/landingPage') }}/img/cover.png" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('assets/landingPage') }}/img/untad.png" type="image/x-icon" />
 
     <!-- Map CSS -->
     <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
