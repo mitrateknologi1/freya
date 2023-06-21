@@ -35,6 +35,12 @@
                             Analisa
                         </a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id="navbarLandings" href="{{ url('/tentang') }}" aria-haspopup="true"
+                            aria-expanded="false">
+                            Tentang
+                        </a>
+                    </li>
                 </ul>
 
                 <!-- Button -->

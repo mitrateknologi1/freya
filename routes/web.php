@@ -25,6 +25,10 @@ Route::get('/', function () {
     return view('landingPage.pages.index');
 });
 
+Route::get('tentang', function () {
+    return view('landingPage.pages.tentang');
+});
+
 Route::get('/analisa', [AnalisaController::class, 'index']);
 Route::post('/hasil-analisa', [AnalisaController::class, 'hasilAnalisa']);
 Route::post('/detail-penyakit', [AnalisaController::class, 'detailPenyakit']);
